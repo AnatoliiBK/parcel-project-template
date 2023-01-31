@@ -1,0 +1,292 @@
+.contact {
+    min-width: 414px;
+    padding-top: 36px;
+    padding-bottom: 32px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FFFDEE;
+    
+
+    @media screen and (min-width: 1024px) {
+        padding-top: 56px;
+        padding-bottom: 40px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-bottom: 73px;
+    }
+
+    &__container {
+        width: 414px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        
+        @media screen and (min-width: 1024px) {
+            width: 1024px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 47px;
+            padding-left: 47px;          
+        }
+
+        @media screen and (min-width: 1280px) {
+            width: 1280px;
+            padding-right: 85px;
+            padding-left: 85px;          
+        }
+    }
+
+
+    &__title {        
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.075;
+        letter-spacing: 0.3em;
+        color: #494848;
+
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 8px;
+        }
+        @media screen and (min-width: 1280px) {
+            margin-bottom: 16px;          
+        }
+
+    }
+
+    &__text {
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        color: #7A7A7A;
+
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 52px;
+        }
+        @media screen and (min-width: 1280px) {
+            margin-bottom: 40px;          
+        }
+
+    }
+
+    &__list {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 32px;
+
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 0;          
+        }
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        &:first-child {
+            column-gap: 32px;
+
+            @media screen and (min-width: 1024px) {
+                margin-bottom: 24px;
+            }
+        }
+        &:nth-child(2) {
+            justify-content: space-between;
+
+            @media screen and (min-width: 1024px) {
+                margin-bottom: 48px;
+            }
+        }
+        &:last-child {
+            margin-bottom: 0;
+            @media screen and (min-width: 1024px) {
+                
+                width: 285px;
+                height: 56px;
+            }
+        }
+
+        &:last-child > p {
+            display: none;
+
+        }
+
+        @media screen and (min-width: 1024px) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+    }
+
+    
+
+    &__label {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #C79002;
+
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 8px;
+        }
+    }
+
+    &__list-phone-f {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        column-gap: 12px;
+        
+    }
+
+    &__list-phone-f > li:last-child {
+        display: none;
+        
+    }
+
+    &__list-phone {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        column-gap: 12px;
+        
+    }
+
+    &__box {
+        display: flex;
+        
+        column-gap: 8px;
+        align-items: center;
+        width: 260px;
+        height: 40px;
+        background-color: #FFFFFF;
+        border: 0.5px solid #F3C653;
+        border-radius: 2px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        @media screen and (min-width: 1024px) {
+            
+        }
+    }
+
+    &__box-s {
+        width: 144px;    
+        column-gap: 8px;
+    }
+
+    &__phone {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.214;
+        letter-spacing: 0.02em;
+        color: #494848;
+        text-decoration: none;
+    }
+
+    &__icon-c {
+        fill: #C79002;
+        
+    } 
+
+    &__address {
+        width: 260px;
+        height: 76px;
+        margin-left: auto;
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        background-color: #FFFFFF;
+        border: 0.5px solid #F3C653;
+        border-radius: 2px;
+        padding-left: 10px;
+
+        @media screen and (min-width: 1024px) {
+            width: 285px;
+            height: 56px;
+            margin-left: 0;
+
+        }
+    }
+
+    &__address-text {
+        display: flex;
+        flex-direction: column;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        color: #494848;
+        text-decoration: none;
+    }
+
+    &__address-dep {
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (min-width: 1024px) {
+            flex-direction: row;
+            column-gap: 6px;
+        }
+    }
+    
+
+    &__img {
+        width: 384px;
+        height: 220px;
+        background-color: #FFFDEE;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 1px solid #BABABA;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        background-image: url(../../../img/location.jpg);
+
+        @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+                
+            background-image: url(../../../img/location@2x.jpg);
+        }
+        
+        
+        @media screen and (min-width: 1024px) {
+            width: 535px;
+            height: 412px;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-color: #FFFDEE;
+            border: 1px solid #BABABA;
+            box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+            border-radius: 2px;
+            background-image: url(../../../img/location-tab.jpg);
+
+            @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+                background-image: url(../../../img/location-tab@2x.jpg);
+            }
+        }
+
+        @media screen and (min-width: 1280px) {
+            width: 634px;
+            height: 412px;
+            background-image: url(../../../img/location-desk.jpg);
+
+            @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+                background-image: url(../../../img/location-desk@2x.jpg);
+            }          
+        }
+    }
+}
