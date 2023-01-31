@@ -254,11 +254,11 @@
         border: 1px solid #BABABA;
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
-        background-image: url(../../../img/location.jpg);
+        background-image: url(../images/location.jpg);
 
         @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
                 
-            background-image: url(../../../img/location@2x.jpg);
+            background-image: url(../images/location@2x.jpg);
         }
         
         
@@ -272,20 +272,20 @@
             border: 1px solid #BABABA;
             box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
             border-radius: 2px;
-            background-image: url(../../../img/location-tab.jpg);
+            background-image: url(../images/location-tab.jpg);
 
             @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
-                background-image: url(../../../img/location-tab@2x.jpg);
+                background-image: url(../images/location-tab@2x.jpg);
             }
         }
 
         @media screen and (min-width: 1280px) {
             width: 634px;
             height: 412px;
-            background-image: url(../../../img/location-desk.jpg);
+            background-image: url(../images/location-desk.jpg);
 
             @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
-                background-image: url(../../../img/location-desk@2x.jpg);
+                background-image: url(../images/location-desk@2x.jpg);
             }          
         }
     }
