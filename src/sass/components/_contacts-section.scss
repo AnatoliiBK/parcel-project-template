@@ -44,6 +44,7 @@
     &__title {        
         margin-top: 0;
         margin-bottom: 12px;
+        
         font-weight: 700;
         font-size: 40px;
         line-height: 1.075;
@@ -92,7 +93,7 @@
         align-items: center;
         margin-bottom: 16px;
         &:first-child {
-            column-gap: 32px;
+            column-gap: 22px;
 
             @media screen and (min-width: 1024px) {
                 margin-bottom: 24px;
@@ -166,7 +167,7 @@
     &__box {
         display: flex;
         
-        column-gap: 8px;
+        justify-content: space-around;
         align-items: center;
         width: 260px;
         height: 40px;
@@ -177,13 +178,12 @@
         padding-right: 8px;
 
         @media screen and (min-width: 1024px) {
-            
+           width: 264px; 
         }
     }
 
     &__box-s {
-        width: 144px;    
-        column-gap: 8px;
+        width: 144px;        
     }
 
     &__phone {
